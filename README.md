@@ -38,6 +38,7 @@ Save "Client ID" and "Client Secret" to use with woodpecker ci
 # woodpecker ci
 [Using there docker-compose as base](https://woodpecker-ci.org/docs/administration/deployment/docker-compose)  
 [And instruction for forgejo](https://woodpecker-ci.org/docs/administration/forges/gitea)  
+[Add more server configurations](https://woodpecker-ci.org/docs/administration/server-config)  
 
 Replace GITHUB by GITEA  
 Replace `${WOODPECKER_HOST}` by `https://your-ip:8000`  
@@ -85,3 +86,6 @@ volumes:
   woodpecker-server-data:
   woodpecker-agent-config:
 ```
+
+# references
+https://codeberg.org/dkarakasilis/self-hosted-ci  

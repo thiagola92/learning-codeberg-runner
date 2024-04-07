@@ -30,10 +30,11 @@ sudo ./forgejo-runner daemon
 # application
 Create an application at your organization "Settings > Applications"  
 
-**Redirect URIs**: `https://your-ip:8000`  
+**Redirect URIs**: `<your-scheme>://<your-ip>:<your-port>/authorize`  
 
-Note `https://your-ip:8000` is just an example (have your modem configured before)  
-Save "Client ID" and "Client Secret" to use with woodpecker ci  
+Remember to have your modem configured to accept connection to your port.  
+An example of redirect uri: `http://127.0.0.1:8000/authorize`.  
+After creation, it will give you a "Client ID" and "Client Secret" (save it to use with woodpecker-ci).  
 
 # woodpecker ci
 [Using there docker-compose as base](https://woodpecker-ci.org/docs/administration/deployment/docker-compose)  

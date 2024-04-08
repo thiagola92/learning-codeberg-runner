@@ -20,9 +20,8 @@ But doesn't tell you that you need to register too
 
 **Forgejo instance URL**: https://codeberg.org  
 **Runner token**: Get at your organization "Settings > Actions > Runners"  
-The rest is up to you to fill or not.  
 
-Start runner with  
+The rest is up to you to fill or not, then start runner with:  
 ```
 sudo ./forgejo-runner daemon
 ```
